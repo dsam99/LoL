@@ -6,9 +6,9 @@ Our code implementation for the LoL project (AAAI 2023)!
 
 We provide the requirements file for our Anaconda environment; you can install the dependencies via:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ## Data 
 
@@ -17,9 +17,9 @@ https://drive.google.com/drive/folders/1v55IKG2JN9fMtKJWU48B_5_DcPWGnpTq
 
 First, we split our data to create (and save) the train, val, and test splits used in our experiments. You can do this first by running the file
 
-'''
+```
 python process_data.py
-'''
+```
 
 which will generate the splits for the experiments using 10 validation data points per class. These splits will be located in the 'saved_data/seed{seed # here}/' directories (depending on the seed used to create the split). We note that the larger datasets (yelp, agnews) require a fair bit of memory.
 
@@ -27,9 +27,9 @@ which will generate the splits for the experiments using 10 validation data poin
 
 To run our experiments, you can use the command
 
-'''
+```
 python run.py --LoL --dataset youtube
-'''
+```
 
 This will run the experiments (over all 5 seeds) for the LoL method and print the results. There are multiple flags that you can pass to the command including:
 
