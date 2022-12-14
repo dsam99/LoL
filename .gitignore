@@ -1,0 +1,10 @@
+./data/youtube
+./data/__pycache__
+./data/chemprot
+
+./wrench
+
+./AWA2/labelers
+./AWA2/__pycache__
+
+./LoL/__pycache__
