@@ -1,6 +1,6 @@
-# Losses over Labels (LoL): Direct weakly supervised learning via automatic loss construction
+# Losses over Labels (LoL): Weakly Supervised Learning via Direct Loss Construction
 
-Our code implementation for the LoL project (AAAI 2023)! 
+Our code implementation for the LoL project (AAAI 2023). 
 
 ## Installation
 
