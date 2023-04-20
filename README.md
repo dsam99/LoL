@@ -1,6 +1,6 @@
-# Losses over Labels (LoL): Weakly Supervised Learning via Direct Loss Construction
+# Losses over Labels
 
-Our code implementation for the LoL project (AAAI 2023). 
+Our code implementation for the paper [Losses over Labels: Weakly Supervised Learning via Direct Loss Construction](https://arxiv.org/abs/2212.06921) (AAAI 2023). 
 
 ## Installation
 
